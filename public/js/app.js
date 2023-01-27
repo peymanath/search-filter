@@ -16,6 +16,9 @@ const filter = {
 };
 
 const requestAPI = () => {
+	
+	productCenter.innerHTML = "Loading the app please wait...";
+
 	// Product API
 	axios("https://fakestoreapi.com/products")
 		.then(res => {
