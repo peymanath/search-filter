@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.product-item{
+    @apply flex flex-col items-center justify-between w-[350px] bg-white shadow-card rounded-lg overflow-hidden
+}
+
+.product-item img{
+    @apply p-2 w-full h-60 object-contain
+}
+.product-item h2{
+    @apply p-2
+}

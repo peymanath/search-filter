@@ -48,7 +48,6 @@
 						</a>
 					</li>
 					<li>
-
 						<a
 							href="#"
 							class="hover:text-gray-900 hover:font-bold transition-all duration-500 font-bold">
@@ -64,6 +63,7 @@
 						method="GET"
 						class="flex items-center justify-center border rounded-md relative py-1.5 px-2 w-full">
 						<input
+							id="searchInput"
 							type="text"
 							name="s"
 							required
@@ -78,7 +78,8 @@
 				</div>
 
 				<!-- Active on Mobile-->
-				<div class="flex flex-wrap md:hidden w-full gap-x-3 items-center justify-between">
+				<div
+					class="flex flex-wrap md:hidden w-full gap-x-3 items-center justify-between">
 					<!-- NavItem Position Mobile-->
 					<div class="bg-gray-100 rounded-md p-2">
 						<a href="#">
@@ -100,11 +101,9 @@
 			</div>
 		</div>
 		<!-- Header Two -->
-		<div id="root" class="py-10">
-
-            <div id="product-center" class=""></div>
-
-        </div>
+		<div id="root" class="container py-10">
+			<div id="product-center" class="grid grid-cols-auto gap-6"></div>
+		</div>
 
 		<!-- JavaScript SRC -->
 		<script src="../public/js/app.js"></script>
